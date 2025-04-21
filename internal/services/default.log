@@ -1,0 +1,711 @@
+time=2025-04-21T21:22:15.219+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:25:25.751+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:26:12.239+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:26:53.687+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:29:37.482+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:29:45.114+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:36:46.594+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:36:50.590+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:37:09.842+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:38:01.130+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:38:09.859+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:38:56.090+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:39:18.334+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:39:18.392+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T21:39:18.392+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:39:18.451+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T21:39:18.451+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T21:39:18.451+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T21:39:18.451+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T21:39:18.451+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T21:39:25.244+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:39:25.244+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T21:39:47.716+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:39:47.716+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T21:40:00.466+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T21:40:00.467+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T21:40:15.657+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T21:40:15.657+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T21:41:12.344+03:00 level=INFO msg="attempting user registration" email=new@avito.com
+time=2025-04-21T21:41:58.265+03:00 level=INFO msg="attempting user registration" email=new@avito.com
+time=2025-04-21T21:44:44.805+03:00 level=INFO msg="attempting user registration" email=new@avito.com
+time=2025-04-21T21:47:09.990+03:00 level=INFO msg="attempting user registration" email=new@avito.com
+time=2025-04-21T21:47:09.991+03:00 level=ERROR msg="failed to begin transaction" email=new@avito.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T21:47:20.139+03:00 level=INFO msg="attempting user registration" email=exists@avito.com
+time=2025-04-21T21:47:20.139+03:00 level=ERROR msg="failed to begin transaction" email=exists@avito.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T21:47:33.004+03:00 level=INFO msg="attempting user registration" email=error@avito.com
+time=2025-04-21T21:47:33.004+03:00 level=ERROR msg="failed to begin transaction" email=error@avito.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T21:47:44.949+03:00 level=INFO msg="attempting user registration" email=new@avito.com
+time=2025-04-21T21:47:44.949+03:00 level=ERROR msg="failed to begin transaction" email=new@avito.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T21:48:11.461+03:00 level=INFO msg="attempting user registration" email=new@avito.com
+time=2025-04-21T21:51:17.646+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:51:17.702+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T21:51:17.702+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T21:51:17.758+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T21:51:17.758+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T21:51:17.758+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T21:51:17.758+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T21:51:17.758+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T21:51:56.078+03:00 level=INFO msg="attempting user registration" email=new@avito.com
+time=2025-04-21T21:51:56.078+03:00 level=ERROR msg="failed to begin transaction" email=new@avito.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T21:51:56.078+03:00 level=INFO msg="attempting user registration" email=exists@avito.com
+time=2025-04-21T21:51:56.078+03:00 level=ERROR msg="failed to begin transaction" email=exists@avito.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T21:51:56.079+03:00 level=INFO msg="attempting user registration" email=error@avito.com
+time=2025-04-21T21:51:56.079+03:00 level=ERROR msg="failed to begin transaction" email=error@avito.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T21:52:40.379+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T21:52:40.379+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T21:52:45.216+03:00 level=INFO msg="starting dummy login" role=invalid
+time=2025-04-21T21:52:45.216+03:00 level=INFO msg="dummy login successful" role=invalid
+time=2025-04-21T21:53:05.196+03:00 level=ERROR msg="failed to begin transaction" email=new@avito.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T21:53:06.417+03:00 level=INFO msg="starting dummy login" role=invalid
+time=2025-04-21T21:53:06.417+03:00 level=INFO msg="dummy login successful" role=invalid
+time=2025-04-21T21:53:27.030+03:00 level=INFO msg="starting dummy login" role=invalid
+time=2025-04-21T21:53:27.030+03:00 level=INFO msg="dummy login successful" role=invalid
+time=2025-04-21T22:10:24.416+03:00 level=INFO msg="starting dummy login" role=invalid
+time=2025-04-21T22:10:24.416+03:00 level=INFO msg="dummy login successful" role=invalid
+time=2025-04-21T22:10:34.915+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T22:10:34.915+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T22:13:43.033+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T22:13:43.081+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T22:13:43.081+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T22:13:43.130+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T22:13:43.130+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T22:13:43.130+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T22:13:43.130+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T22:13:43.130+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T22:13:43.130+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T22:13:43.130+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T22:16:10.533+03:00 level=INFO msg="attempting user registration" email=test@example.com
+time=2025-04-21T22:16:14.594+03:00 level=INFO msg="attempting user registration" email=test@example.com
+time=2025-04-21T22:16:20.323+03:00 level=INFO msg="attempting user registration" email=test@example.com
+time=2025-04-21T22:18:18.147+03:00 level=INFO msg="attempting user registration" email=test@example.com
+time=2025-04-21T22:18:18.147+03:00 level=ERROR msg="failed to begin transaction" email=test@example.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T22:18:25.696+03:00 level=INFO msg="attempting user registration" email=existing@example.com
+time=2025-04-21T22:18:25.696+03:00 level=ERROR msg="failed to begin transaction" email=existing@example.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T22:18:35.417+03:00 level=INFO msg="attempting user registration" email=test@example.com
+time=2025-04-21T22:20:41.477+03:00 level=INFO msg="attempting user registration" email=test@example.com
+time=2025-04-21T22:20:41.593+03:00 level=INFO msg="user registered successfully" email=test@example.com user_id=user123 role=employee
+time=2025-04-21T22:21:11.893+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T22:21:11.893+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T22:32:45.577+03:00 level=INFO msg="attempting user registration" email=invalid@role.com
+time=2025-04-21T22:32:45.577+03:00 level=ERROR msg="failed to begin transaction" email=invalid@role.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T22:32:59.482+03:00 level=INFO msg="attempting user registration" email=employee@example.com
+time=2025-04-21T22:34:01.211+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T22:34:01.367+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T22:34:01.446+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T22:34:01.446+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T22:37:54.419+03:00 level=ERROR msg="failed to begin transaction" email=test@example.com err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T22:44:14.665+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:44:14.665+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T22:44:14.665+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:44:14.665+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:44:14.666+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T22:44:25.755+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:44:25.755+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T22:44:32.504+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:44:32.504+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:44:46.326+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:44:46.326+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:44:48.943+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T22:44:57.877+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T22:45:19.086+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:45:19.086+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:45:29.915+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:45:29.915+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:45:39.494+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=invalid-type
+time=2025-04-21T22:45:39.494+03:00 level=ERROR msg="failed to begin transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=invalid-type err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T22:45:57.935+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:45:57.935+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T22:45:57.935+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:45:57.935+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:45:57.935+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T22:46:08.216+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:46:08.216+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:46:15.271+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:46:15.271+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T22:46:15.272+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:46:15.272+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:46:15.272+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:46:15.272+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:46:15.272+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:46:15.272+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:46:15.272+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=invalid-type
+time=2025-04-21T22:46:15.272+03:00 level=ERROR msg="failed to begin transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=invalid-type err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T22:46:15.272+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T22:46:15.272+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T22:46:15.272+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T22:46:15.272+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T22:46:15.272+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T22:46:15.272+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T22:46:49.589+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:46:49.590+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T22:46:49.590+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:46:49.590+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:46:49.590+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:46:49.590+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:46:49.590+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:46:49.590+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:46:49.590+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T22:46:49.590+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T22:46:49.591+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T22:46:49.591+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T22:46:49.591+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T22:46:49.591+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T22:51:24.127+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T22:51:24.127+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T22:51:49.379+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T22:51:49.379+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T22:53:47.286+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T22:53:47.342+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T22:53:47.342+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T22:53:47.395+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T22:53:47.395+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T22:53:47.395+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T22:53:47.395+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T22:53:47.395+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T22:53:47.395+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T22:53:47.395+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T22:53:47.396+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T22:53:47.497+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T22:53:47.546+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T22:53:47.546+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T22:53:47.546+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:53:47.546+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T22:53:47.546+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:53:47.546+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:53:47.546+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:53:47.546+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:53:47.547+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:53:47.547+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:53:47.547+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T22:53:47.547+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T22:53:47.547+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T22:53:47.547+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T22:53:47.547+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T22:53:47.547+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T22:53:47.547+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T22:53:47.547+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T22:53:51.452+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T22:53:51.452+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T22:53:56.606+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T22:53:56.606+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T22:54:34.882+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T22:54:34.882+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T22:55:12.894+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T22:55:12.894478869+03:00 endDate=2025-04-21T22:55:12.894+03:00 limit=10 page=1
+time=2025-04-21T22:55:12.894+03:00 level=INFO msg="successfully fetched pvz list" startDate=2025-04-21T22:55:12.894478869+03:00 endDate=2025-04-21T22:55:12.894+03:00 limit=10 page=1 rows=1
+time=2025-04-21T22:55:16.509+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T22:55:16.509236932+03:00 endDate=2025-04-21T21:55:16.509+03:00 limit=0 page=0
+time=2025-04-21T22:55:16.509+03:00 level=WARN msg="start date is after end date" startDate=2025-04-21T22:55:16.509236932+03:00 endDate=2025-04-21T21:55:16.509+03:00 limit=0 page=0
+time=2025-04-21T22:55:25.639+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T22:55:30.860+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T22:55:30.860+03:00 level=ERROR msg="failed to get in-progress reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T22:55:52.056+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T22:55:52.056+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T22:56:00.498+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:56:00.498+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T22:56:00.498+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:56:00.498+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T22:56:00.498+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:56:00.498+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:56:00.498+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T22:56:00.498+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T22:56:00.499+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T22:56:00.499+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T22:56:00.499+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T22:56:00.499+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T22:56:00.499+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T22:56:00.499+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T22:56:11.255+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T22:56:11.255+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T22:56:15.629+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T22:56:15.629+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T22:56:19.047+03:00 level=INFO msg="starting Create Pvz" city=Нью-Йорк
+time=2025-04-21T22:56:19.047+03:00 level=ERROR msg="failed to begin transaction" city=Нью-Йорк err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T22:56:21.472+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T22:56:21.472+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T22:56:24.617+03:00 level=INFO msg="starting Create Pvz" city=Нью-Йорк
+time=2025-04-21T22:56:24.617+03:00 level=ERROR msg="failed to begin transaction" city=Нью-Йорк err="all expectations were already fulfilled, call to database transaction Begin was not expected"
+time=2025-04-21T22:56:35.531+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T22:56:35.531+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T22:56:35.531+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T22:56:35.531+03:00 level=ERROR msg="failed to get reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T22:56:42.526+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T22:56:42.526+03:00 level=ERROR msg="failed to get reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T22:56:57.375+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T22:56:57.376+03:00 level=ERROR msg="failed to get in-progress reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T22:56:57.376+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T22:57:03.239+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T22:57:03.239+03:00 level=ERROR msg="failed to get in-progress reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T22:57:25.057+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T22:57:25.057+03:00 level=ERROR msg="failed to get reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T22:57:58.491+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T22:58:33.430+03:00 level=ERROR msg="failed to get reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T22:59:16.348+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T22:59:16.348+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T22:59:36.572+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T22:59:36.573+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T23:00:03.999+03:00 level=INFO msg="starting Create Pvz" city=Москва
+time=2025-04-21T23:00:04.000+03:00 level=INFO msg="no id provided, using autogenerated id" city=Москва
+time=2025-04-21T23:01:07.867+03:00 level=INFO msg="starting Create Pvz" city=Москва pvzId=f284df64-34de-4c29-b04c-075b1e660850
+time=2025-04-21T23:01:32.053+03:00 level=INFO msg="starting Create Pvz" city=Москва pvzId=f284df64-34de-4c29-b04c-075b1e660850
+time=2025-04-21T23:01:58.814+03:00 level=INFO msg="starting Create Pvz" city=Москва pvzId=f284df64-34de-4c29-b04c-075b1e660850
+time=2025-04-21T23:02:35.218+03:00 level=INFO msg="starting Create Pvz" city=Москва pvzId=f284df64-34de-4c29-b04c-075b1e660850
+time=2025-04-21T23:03:07.398+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:03:07.455+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:03:07.455+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:03:07.511+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:03:07.511+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:03:07.511+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:03:07.511+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:03:07.511+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:03:07.511+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:03:07.512+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:03:07.512+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:03:07.623+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:03:07.681+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:03:07.681+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:03:07.681+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:07.681+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:03:07.681+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:03:07.681+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:03:07.681+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:07.681+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:03:07.681+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:07.681+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:03:07.682+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:03:07.682+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:03:07.682+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:03:07.682+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:03:07.682+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:03:07.682+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:03:07.682+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:03:07.683+03:00 level=ERROR msg="failed to get in-progress reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T23:03:07.683+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:03:09.103+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:03:09.154+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:03:09.155+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:03:09.205+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:03:09.205+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:03:09.205+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:03:09.205+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:03:09.205+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:03:09.205+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:03:09.205+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:03:09.205+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:03:09.308+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:03:09.365+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:03:09.365+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:09.365+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:09.365+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:03:09.365+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:03:09.365+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:03:09.365+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:03:09.365+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:03:09.366+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:03:09.366+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:03:09.366+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:03:09.366+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:03:09.366+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:03:09.366+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:03:09.366+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:03:09.366+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:03:09.366+03:00 level=ERROR msg="failed to get in-progress reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T23:03:09.366+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:03:12.618+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:03:12.618+03:00 level=ERROR msg="failed to get in-progress reception" pvzId=pvz123 err="no in-progress reception"
+time=2025-04-21T23:03:25.876+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:03:25.876+03:00 level=INFO msg="reception successfully closed" pvzId=pvz123 receptionId=rec456
+time=2025-04-21T23:03:33.131+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:03:33.188+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:03:33.188+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:03:33.243+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:03:33.243+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:03:33.243+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:03:33.243+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:03:33.243+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:03:33.243+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:03:33.243+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:03:33.243+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:03:33.349+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:03:33.404+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:03:33.404+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:03:33.404+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:33.404+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:03:33.404+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:03:33.404+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:33.405+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:03:33.405+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:03:33.405+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:03:33.405+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:03:33.405+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:03:33.405+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:03:33.405+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:03:33.405+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:03:33.405+03:00 level=INFO msg="reception successfully closed" pvzId=pvz123 receptionId=rec456
+time=2025-04-21T23:03:33.406+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:03:41.140+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:04:00.601+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:04:00.659+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:04:00.659+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:04:00.714+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:04:00.714+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:04:00.715+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:04:00.715+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:04:00.715+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:04:00.715+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:04:00.715+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:04:00.715+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:04:00.821+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:04:00.874+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:04:00.874+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:04:00.874+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:04:00.874+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:04:00.874+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:04:00.874+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:04:00.874+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:04:00.874+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:04:00.874+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:04:00.875+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:04:00.875+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:04:00.875+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:04:00.875+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:04:00.875+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:04:00.875+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:04:00.875+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:04:00.875+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:04:00.875+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:04:00.875+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:04:00.875+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:04:00.875+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:04:00.875+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:04:00.875+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:04:00.876+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:04:00.876+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:04:00.877+03:00 level=INFO msg="reception successfully closed" pvzId=pvz123 receptionId=rec456
+time=2025-04-21T23:04:00.877+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:04:00.877224896+03:00 endDate=2025-04-21T23:04:00.877+03:00 limit=10 page=1
+time=2025-04-21T23:04:00.877+03:00 level=INFO msg="successfully fetched pvz list" startDate=2025-04-21T23:04:00.877224896+03:00 endDate=2025-04-21T23:04:00.877+03:00 limit=10 page=1 rows=1
+time=2025-04-21T23:04:00.877+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:04:00.877473405+03:00 endDate=2025-04-21T22:04:00.877+03:00 limit=0 page=0
+time=2025-04-21T23:04:00.877+03:00 level=WARN msg="start date is after end date" startDate=2025-04-21T23:04:00.877473405+03:00 endDate=2025-04-21T22:04:00.877+03:00 limit=0 page=0
+time=2025-04-21T23:08:29.931+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:08:29.932+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:08:29.932+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:08:29.932+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:08:29.932+03:00 level=INFO msg="starting Create reception" pvzId=invalid-pvz
+time=2025-04-21T23:08:55.090+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:08:55.090+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:08:55.090+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:08:55.090+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:08:55.090+03:00 level=INFO msg="starting Create reception" pvzId=invalid-pvz
+time=2025-04-21T23:08:59.906+03:00 level=INFO msg="starting Create reception" pvzId=invalid-pvz
+time=2025-04-21T23:09:13.292+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:09:13.292+03:00 level=ERROR msg="failed to get reception by pvzId" pvzId=pvz123 err="internal error"
+time=2025-04-21T23:09:21.177+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:09:21.177+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:09:21.177+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:09:21.177+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:09:21.177+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:09:21.177+03:00 level=ERROR msg="failed to get reception by pvzId" pvzId=pvz123 err="internal error"
+time=2025-04-21T23:09:21.178+03:00 level=INFO msg="starting Create reception" pvzId=""
+time=2025-04-21T23:09:21.178+03:00 level=ERROR msg="failed to begin transaction" pvzId="" err="internal error"
+time=2025-04-21T23:09:21.178+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:09:28.107+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:09:39.998+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:10:05.984+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:10:11.543+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:10:33.479+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:10:33.479+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:10:33.479+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:10:33.479+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:10:33.479+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:10:33.479+03:00 level=ERROR msg="failed to get reception by pvzId" pvzId=pvz123 err="internal error"
+time=2025-04-21T23:10:33.479+03:00 level=INFO msg="starting Create reception" pvzId=""
+time=2025-04-21T23:10:33.479+03:00 level=ERROR msg="failed to begin transaction" pvzId="" err="internal error"
+time=2025-04-21T23:10:42.486+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:10:42.534+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:10:42.534+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:10:42.583+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:10:42.583+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:10:42.583+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:10:42.583+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:10:42.583+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:10:42.583+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:10:42.583+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:10:42.583+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:10:42.680+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:10:42.729+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:10:42.729+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:10:42.729+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:10:42.729+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:10:42.729+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:10:42.729+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:10:42.729+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:10:42.729+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:10:42.729+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:10:42.729+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:10:42.730+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="reception successfully closed" pvzId=pvz123 receptionId=rec456
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:10:42.730251802+03:00 endDate=2025-04-21T23:10:42.730+03:00 limit=10 page=1
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="successfully fetched pvz list" startDate=2025-04-21T23:10:42.730251802+03:00 endDate=2025-04-21T23:10:42.730+03:00 limit=10 page=1 rows=1
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:10:42.730327042+03:00 endDate=2025-04-21T22:10:42.730+03:00 limit=0 page=0
+time=2025-04-21T23:10:42.730+03:00 level=WARN msg="start date is after end date" startDate=2025-04-21T23:10:42.730327042+03:00 endDate=2025-04-21T22:10:42.730+03:00 limit=0 page=0
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:10:42.730+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:10:42.730+03:00 level=ERROR msg="failed to get reception by pvzId" pvzId=pvz123 err="internal error"
+time=2025-04-21T23:10:42.730+03:00 level=INFO msg="starting Create reception" pvzId=""
+time=2025-04-21T23:10:42.730+03:00 level=ERROR msg="failed to begin transaction" pvzId="" err="internal error"
+time=2025-04-21T23:11:26.642+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:11:26.642+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:12:21.096+03:00 level=INFO msg="starting Create reception" pvzId=a
+time=2025-04-21T23:12:21.096+03:00 level=ERROR msg="failed to begin transaction" pvzId=a err="internal error"
+time=2025-04-21T23:12:51.381+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:12:51.431+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:12:51.431+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:12:51.479+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:12:51.479+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:12:51.479+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:12:51.479+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:12:51.479+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:12:51.479+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:12:51.480+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:12:51.480+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:12:51.579+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:12:51.628+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:12:51.628+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:12:51.628+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:12:51.628+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:12:51.628+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:12:51.628+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:12:51.628+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:12:51.628+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:12:51.629+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:12:51.629+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:12:51.629+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:12:51.629+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:12:51.629+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:12:51.629+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:12:51.629+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="reception successfully closed" pvzId=pvz123 receptionId=rec456
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:12:51.629673487+03:00 endDate=2025-04-21T23:12:51.629+03:00 limit=10 page=1
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="successfully fetched pvz list" startDate=2025-04-21T23:12:51.629673487+03:00 endDate=2025-04-21T23:12:51.629+03:00 limit=10 page=1 rows=1
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:12:51.629744396+03:00 endDate=2025-04-21T22:12:51.629+03:00 limit=0 page=0
+time=2025-04-21T23:12:51.629+03:00 level=WARN msg="start date is after end date" startDate=2025-04-21T23:12:51.629744396+03:00 endDate=2025-04-21T22:12:51.629+03:00 limit=0 page=0
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting Create reception" pvzId=a
+time=2025-04-21T23:12:51.629+03:00 level=ERROR msg="failed to begin transaction" pvzId=a err="internal error"
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:12:51.629+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:12:51.629+03:00 level=ERROR msg="failed to get reception by pvzId" pvzId=pvz123 err="internal error"
+time=2025-04-21T23:12:51.629+03:00 level=INFO msg="starting Create reception" pvzId=""
+time=2025-04-21T23:12:51.629+03:00 level=ERROR msg="failed to begin transaction" pvzId="" err="internal error"
+time=2025-04-21T23:14:23.983+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:14:24.035+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:14:24.035+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:14:24.089+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:14:24.089+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:14:24.089+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:14:24.089+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:14:24.089+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:14:24.089+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:14:24.089+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:14:24.090+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:14:24.196+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:14:24.248+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:14:24.248+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:14:24.249+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:14:24.249+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:14:24.249+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:14:24.249+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:14:24.249+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:14:24.249+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:14:24.249+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:14:24.249+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:14:24.250+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:14:24.250+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="reception successfully closed" pvzId=pvz123 receptionId=rec456
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:14:24.250723491+03:00 endDate=2025-04-21T23:14:24.250+03:00 limit=10 page=1
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="successfully fetched pvz list" startDate=2025-04-21T23:14:24.250723491+03:00 endDate=2025-04-21T23:14:24.250+03:00 limit=10 page=1 rows=1
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:14:24.250852525+03:00 endDate=2025-04-21T22:14:24.250+03:00 limit=0 page=0
+time=2025-04-21T23:14:24.250+03:00 level=WARN msg="start date is after end date" startDate=2025-04-21T23:14:24.250852525+03:00 endDate=2025-04-21T22:14:24.250+03:00 limit=0 page=0
+time=2025-04-21T23:14:24.250+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:14:24.251+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:14:24.251+03:00 level=INFO msg="starting Create reception" pvzId=a
+time=2025-04-21T23:14:24.251+03:00 level=ERROR msg="failed to begin transaction" pvzId=a err="internal error"
+time=2025-04-21T23:14:24.251+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:14:24.251+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:14:24.251+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:14:24.251+03:00 level=ERROR msg="failed to get reception by pvzId" pvzId=pvz123 err="internal error"
+time=2025-04-21T23:14:24.251+03:00 level=INFO msg="starting Create reception" pvzId=""
+time=2025-04-21T23:14:24.251+03:00 level=ERROR msg="failed to begin transaction" pvzId="" err="internal error"
+time=2025-04-21T23:15:13.231+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:15:13.283+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:15:13.283+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:15:13.336+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:15:13.336+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:15:13.336+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:15:13.336+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:15:13.336+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:15:13.337+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:15:13.337+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:15:13.337+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:15:13.439+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:15:13.491+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:15:13.491+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:15:13.491+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:15:13.491+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:15:13.491+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:15:13.491+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:15:13.491+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:15:13.491+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:15:13.491+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:15:13.491+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:15:13.491+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:15:13.491+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:15:13.491+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:15:13.492+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:15:13.492+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:15:13.492+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:15:13.492+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:15:13.492+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="reception successfully closed" pvzId=pvz123 receptionId=rec456
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:15:13.492515455+03:00 endDate=2025-04-21T23:15:13.492+03:00 limit=10 page=1
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="successfully fetched pvz list" startDate=2025-04-21T23:15:13.492515455+03:00 endDate=2025-04-21T23:15:13.492+03:00 limit=10 page=1 rows=1
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:15:13.492603976+03:00 endDate=2025-04-21T22:15:13.492+03:00 limit=0 page=0
+time=2025-04-21T23:15:13.492+03:00 level=WARN msg="start date is after end date" startDate=2025-04-21T23:15:13.492603976+03:00 endDate=2025-04-21T22:15:13.492+03:00 limit=0 page=0
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting Create reception" pvzId=a
+time=2025-04-21T23:15:13.492+03:00 level=ERROR msg="failed to begin transaction" pvzId=a err="internal error"
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:15:13.492+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:15:13.492+03:00 level=ERROR msg="failed to get reception by pvzId" pvzId=pvz123 err="internal error"
+time=2025-04-21T23:15:13.492+03:00 level=INFO msg="starting Create reception" pvzId=""
+time=2025-04-21T23:15:13.492+03:00 level=ERROR msg="failed to begin transaction" pvzId="" err="internal error"
+time=2025-04-21T23:47:55.825+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:47:55.877+03:00 level=INFO msg="user login successful" email=user@avito.com user_id=123 role=employee
+time=2025-04-21T23:47:55.877+03:00 level=INFO msg="attempting user login" email=user@avito.com
+time=2025-04-21T23:47:55.930+03:00 level=WARN msg="invalid password" email=user@avito.com
+time=2025-04-21T23:47:55.930+03:00 level=INFO msg="attempting user login" email=notfound@avito.com
+time=2025-04-21T23:47:55.930+03:00 level=WARN msg="user not found" email=notfound@avito.com
+time=2025-04-21T23:47:55.930+03:00 level=INFO msg="attempting user login" email=error@avito.com
+time=2025-04-21T23:47:55.930+03:00 level=ERROR msg="failed to fetch user" email=error@avito.com err="internal error"
+time=2025-04-21T23:47:55.930+03:00 level=INFO msg="starting dummy login" role=moderator
+time=2025-04-21T23:47:55.930+03:00 level=INFO msg="dummy login successful" role=moderator
+time=2025-04-21T23:47:55.930+03:00 level=INFO msg="attempting user registration" email=test@avito.com
+time=2025-04-21T23:47:56.035+03:00 level=INFO msg="user registered successfully" email=test@avito.com user_id=user123 role=employee
+time=2025-04-21T23:47:56.087+03:00 level=INFO msg="attempting user registration" email=error@example.com
+time=2025-04-21T23:47:56.087+03:00 level=ERROR msg="failed to begin transaction" email=error@example.com err="internal error"
+time=2025-04-21T23:47:56.087+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:47:56.087+03:00 level=INFO msg="product successfully added to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника product_id=prod456 reception_id=rec123
+time=2025-04-21T23:47:56.087+03:00 level=INFO msg="starting AddInReception" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:47:56.087+03:00 level=WARN msg="pvz not found" pvz_id=invalid-pvz product_type=одежда
+time=2025-04-21T23:47:56.087+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:47:56.087+03:00 level=ERROR msg="failed to fetch pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:47:56.087+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника
+time=2025-04-21T23:47:56.088+03:00 level=ERROR msg="failed to commit transaction" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=электроника err="internal error"
+time=2025-04-21T23:47:56.088+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:47:56.088+03:00 level=WARN msg="reception not found for pvz" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=одежда
+time=2025-04-21T23:47:56.088+03:00 level=INFO msg="starting AddInReception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь
+time=2025-04-21T23:47:56.088+03:00 level=ERROR msg="failed to add product to reception" pvz_id=550e8400-e29b-41d4-a716-446655440000 product_type=обувь err="internal error"
+time=2025-04-21T23:47:56.088+03:00 level=INFO msg="starting AddInReception" pvz_id="" product_type=""
+time=2025-04-21T23:47:56.088+03:00 level=ERROR msg="failed to begin transaction" pvz_id="" product_type="" err="internal error"
+time=2025-04-21T23:47:56.088+03:00 level=INFO msg="starting Create Pvz" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:47:56.088+03:00 level=WARN msg="pvz with given id already exists" city=Санкт-Петербург pvzId=existing-id
+time=2025-04-21T23:47:56.120+03:00 level=INFO msg="starting Create Pvz" city=Казань
+time=2025-04-21T23:47:56.120+03:00 level=ERROR msg="failed to begin transaction" city=Казань err="internal error"
+time=2025-04-21T23:47:56.120+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:47:56.120+03:00 level=INFO msg="product successfully deleted" pvzId=pvz123 productId=prod789
+time=2025-04-21T23:47:56.120+03:00 level=INFO msg="starting DeleteLastProduct" pvzId=pvz123
+time=2025-04-21T23:47:56.120+03:00 level=WARN msg="no products found to delete" pvzId=pvz123
+time=2025-04-21T23:47:56.121+03:00 level=INFO msg="starting CloseLastReception" pvzId=pvz123
+time=2025-04-21T23:47:56.121+03:00 level=INFO msg="reception successfully closed" pvzId=pvz123 receptionId=rec456
+time=2025-04-21T23:47:56.121+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:47:56.121226617+03:00 endDate=2025-04-21T23:47:56.121+03:00 limit=10 page=1
+time=2025-04-21T23:47:56.121+03:00 level=INFO msg="successfully fetched pvz list" startDate=2025-04-21T23:47:56.121226617+03:00 endDate=2025-04-21T23:47:56.121+03:00 limit=10 page=1 rows=1
+time=2025-04-21T23:47:56.121+03:00 level=INFO msg="starting ListWithFilterDate" startDate=2025-04-21T23:47:56.121562895+03:00 endDate=2025-04-21T22:47:56.121+03:00 limit=0 page=0
+time=2025-04-21T23:47:56.121+03:00 level=WARN msg="start date is after end date" startDate=2025-04-21T23:47:56.121562895+03:00 endDate=2025-04-21T22:47:56.121+03:00 limit=0 page=0
+time=2025-04-21T23:47:56.121+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:47:56.122+03:00 level=INFO msg="reception created successfully" pvzId=550e8400-e29b-41d4-a716-446655440000 receptionId=rec123 status=""
+time=2025-04-21T23:47:56.122+03:00 level=INFO msg="starting Create reception" pvzId=a
+time=2025-04-21T23:47:56.122+03:00 level=ERROR msg="failed to begin transaction" pvzId=a err="internal error"
+time=2025-04-21T23:47:56.122+03:00 level=INFO msg="starting Create reception" pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:47:56.122+03:00 level=WARN msg="reception already exists and is not closed" pvzId=550e8400-e29b-41d4-a716-446655440000 pvzId=550e8400-e29b-41d4-a716-446655440000
+time=2025-04-21T23:47:56.122+03:00 level=INFO msg="starting Create reception" pvzId=pvz123
+time=2025-04-21T23:47:56.122+03:00 level=ERROR msg="failed to get reception by pvzId" pvzId=pvz123 err="internal error"
+time=2025-04-21T23:47:56.122+03:00 level=INFO msg="starting Create reception" pvzId=""
+time=2025-04-21T23:47:56.122+03:00 level=ERROR msg="failed to begin transaction" pvzId="" err="internal error"
