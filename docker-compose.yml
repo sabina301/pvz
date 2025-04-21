@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: pvz_postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: pvz_db
+      DB_SSLMODE: disable
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - pvz_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d pvz_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  migrate:
+    image: migrate/migrate:v4.16.2
+    container_name: pvz_migrate
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./internal/migrations:/migrations
+    command:
+      -path=/migrations
+      -database=postgres://user:password@postgres:5432/pvz_db?sslmode=disable
+      up
+    networks:
+      - pvz_network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pvz_app
+    depends_on:
+      - migrate
+    ports:
+      - "8080:8080"
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: user
+      DB_PASSWORD: password
+      DB_NAME: pvz_db
+      JWT_SECRET: your_jwt_secret_here
+      DB_SSLMODE: disable
+    networks:
+      - pvz_network
+
+volumes:
+  postgres_data:
+
+networks:
+  pvz_network:
+    driver: bridge

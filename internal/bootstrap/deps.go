@@ -68,12 +68,13 @@ func getDataSourceName() (string, error) {
 	switch configs.AppConfiguration.DB.DriverName {
 	case "postgres":
 		log.Info("generating data source name for postgres")
-		return fmt.Sprintf("postgres://%s:%s@%s:%v/%s",
+		return fmt.Sprintf("postgres://%s:%s@%s:%v/%s?sslmode=%s",
 			configs.AppConfiguration.DB.User,
 			configs.AppConfiguration.DB.Password,
 			configs.AppConfiguration.DB.Host,
 			configs.AppConfiguration.DB.Port,
 			configs.AppConfiguration.DB.Name,
+			configs.AppConfiguration.DB.SslMode,
 		), nil
 	default:
 		log.Error("unsupported database driver", "driver", configs.AppConfiguration.DB.DriverName)

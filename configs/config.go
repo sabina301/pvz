@@ -28,6 +28,7 @@ type DBConfig struct {
 	User           string `env:"DB_USER,required"`
 	Password       string `env:"DB_PASSWORD,required"`
 	MaxConnections int    `env:"MAX_CONNECTIONS" envDefault:"10"`
+	SslMode        string `env:"DB_SSLMODE" envDefault:"disable"`
 }
 
 type AuthConfig struct {
